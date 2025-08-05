@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using Demo.Encapsulation;
+
+namespace Demo
 {
     internal class Program
     {
@@ -50,13 +52,13 @@
             //Console.WriteLine($"Point p1: x = {p1.x}, y = {p1.y}");
 
             //Point P2 = new Point(30, 40); 
-            
+
             //Console.WriteLine($"Point p2: x = {P2.x}, y = {P2.y}");
 
             //P2 = p1; // copy value of p1 to P2
 
             //Console.WriteLine("After Assign P2=P1");       
-            
+
 
             //Console.WriteLine($"Point p1: x = {p1.x}, y = {p1.y}");
 
@@ -76,6 +78,49 @@
 
 
             #endregion
+
+
+
+
+            #endregion
+
+
+
+            #region Encapsulation
+            //Employee emp1 = new Employee();
+           // emp1.name = "Ahmed";    
+           //emp1.age = 30;
+           // emp1.id = 1001; 
+           // emp1.salary = 5000.50m;
+           // Console.WriteLine(emp1);
+
+
+            // there are tree Problem  before the encapsulation
+            // Access direct the attribute 
+            // any modify in the details will affect the outer code 
+            // no validation for the data   
+
+            // so we need to encapsulate the data   
+            // Encapsulation =>  is the process of hiding the internal state and functionality of an object and only exposing a controlled interface for interaction.   
+
+
+            //emp1.setName("Ahmed Gamal Dahy"); // using setter to set the name  
+            //emp1.age = 30;  
+            //emp1.id = 1001;
+            //emp1.SetSalary(5000.50m);
+            //Console.WriteLine($"Employee Name: {emp1.GetName()}, Age: {emp1.age}, ID: {emp1.id}, Salary: {emp1.GetSalary()}");  
+
+
+            //emp1.Id =-1; // using property to set the id
+            //Console.WriteLine($"Employee Id {emp1.Id}"); // using property to get the id    
+
+          //emp1.Id= 1;
+          //  emp1.setName("Ahmerdd");
+          //  emp1.SetSalary(5000);
+          //  emp1.Age = 30;
+          //  Console.WriteLine(emp1.Deduction);
+
+
 
 
 
