@@ -102,6 +102,22 @@ namespace Demo.Encapsulation
         
         }
 
+        // full property
+        private decimal myVar;   
+
+        public decimal MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+
+
+        // Automatic Property
+        //public int MyProperty { get; set; }
+
+
+
+
 
         #endregion
 

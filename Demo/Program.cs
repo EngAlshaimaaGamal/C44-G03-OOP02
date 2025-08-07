@@ -117,13 +117,52 @@ namespace Demo
           //emp1.Id= 1;
           //  emp1.setName("Ahmerdd");
           //  emp1.SetSalary(5000);
-          //  emp1.Age = 30;
-          //  Console.WriteLine(emp1.Deduction);
+          //  Console.WriteLine(emp1.Deduction); // using property to get the deduction   
 
 
 
 
 
+            #endregion
+
+            #region phoneNoteBooks
+
+
+           // PhoneNoteBook phoneNoteBook = new PhoneNoteBook(3);
+            //Console.WriteLine(phoneNoteBook.Size);
+
+            //phoneNoteBook.AddNewPersone(0, 123456789, "Ahmed");
+            //phoneNoteBook.AddNewPersone(1, 987654321, "Mohamed");   
+            //phoneNoteBook.AddNewPersone(2, 555555555, "Sara");
+            ////phoneNoteBook.AddNewPersone(3, 555555555, "Sara"); // this will not work because the position is out of range 
+             
+            //int result = phoneNoteBook.GetPhoneNumber("Ahmed"); // this will return 123456789
+            //Console.WriteLine(result); // this will return 123456789
+
+            //phoneNoteBook.SetNumber( 111111111, "Mohamed"); // this will set the number of Mohamed to 111111111
+  
+
+            //Console.WriteLine(phoneNoteBook.GetPhoneNumber("Mohamed")); // this will return 111111111   
+
+
+            //phoneNoteBook["Ahmed"] = 222222222; // using indexer to set the number of Ahmed to 222222222    
+            //Console.WriteLine(phoneNoteBook["Ahmed"]); // using indexer to get the number of Ahmed  => 222222222    
+
+            //string str1 = " route";
+            //Console.WriteLine(str1[0]); // using indexer to get the first character of the string => r
+            ////string[0]= 'k'; // this will not work because string is immutable   
+
+            //for(int i=0; i < phoneNoteBook.Size; i++)
+            //{
+            //    Console.WriteLine( phoneNoteBook[i]);
+            }
+
+            //foreach (var item in phoneNoteBook) 
+            //{
+            //    Console.WriteLine($"Name: {item}");
+
+
+            //}
 
             #endregion
 
