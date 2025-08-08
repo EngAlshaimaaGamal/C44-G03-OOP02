@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Net.Cache;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -40,7 +42,36 @@
 
             #endregion
 
+            #region Q3
+            //3.	Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
 
+            //OldestPerson[] oldestPersons = new OldestPerson[3];
+
+            //for (int i = 0; i < oldestPersons.Length; i++)
+            //{
+            //    Console.WriteLine($"Enter the name of person {i + 1}: ");
+            //    string? name = Console.ReadLine();
+
+            //    Console.WriteLine($"Enter the age of person {i + 1}: ");
+            //    int age = int.Parse(Console.ReadLine() ?? "0");
+
+            //    oldestPersons[i] = new OldestPerson { Name = name, Age = age };
+
+            //}
+            //OldestPerson oldest = oldestPersons[0]; 
+            //for (int i = 1; i < oldestPersons.Length; i++)
+            //{
+            //    if (oldestPersons[i].Age < oldest.Age)
+            //    {
+            //        oldest = oldestPersons[i];
+            //    }
+            //}  
+            
+            //Console.WriteLine($"The oldest person is {oldest.Name} with age {oldest.Age}"); 
+
+
+
+            #endregion
 
 
             #region Q4
