@@ -16,6 +16,7 @@
 
 
             #endregion
+
             #region Q2
 
 
@@ -35,6 +36,30 @@
             //Console.WriteLine(distance);
 
             ////Console.WriteLine($"Distance = {distance:F2}");
+
+
+            #endregion
+
+
+
+
+            #region Q4
+
+
+            //Rectangle R1 = new Rectangle();
+
+            //R1.Heigth = 10;// Set height
+            //R1.Weigth = 5; // Set weigth    
+            //Console.WriteLine(R1.Area); // Get Area
+            //Console.WriteLine(R1);                        
+
+
+
+            //Rectangle R2 = new Rectangle(6,12);
+
+            //Console.WriteLine(R2);
+
+
 
 
             #endregion
